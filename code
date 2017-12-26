@@ -1,0 +1,38 @@
+<?php 
+for ($i=0;$i<8;$i++){
+    $lat = mysql_query("select latitude from Device where id='#$i');
+    $lon = mysql_query("select longitude from Device where id='#$i');
+    $name1 = mysql_query("select name from Device where id='#$i');
+
+      a.push({
+            id: '#$i',
+            tooltip: $name1,
+            latitude: (double)$lat,
+            longitude: (double)$lon,
+            image: 'pin.png',
+            width: 32,
+            height: 32,
+            anchor: 'bottom center',
+            data: {
+              deletable: true
+            }
+          });
+  
+}
+     
+      
+   
+?>
+
+if (marker.data && marker.data.deletable) {
+      PSV.removeMarker(marker);
+
+    }
+    else if (marker.id === 'gif') {
+      var width = (Math.random()*0.4 + 0.8) * marker.width;
+      PSV.updateMarker({
+        id: marker.id,
+        width: width,
+        height: width
+      });
+    }
