@@ -20,7 +20,7 @@ if(!empty($_POST['un']))   //checking the 'user' name which is from Sign-In.html
 	if(!empty($row['username']) AND !empty($row['password']))
 	{
 		$_SESSION['username'] = $row['password'];
-	header('Location:index1.php');
+	header('Location:main-page.php');
 
 	}
 	
