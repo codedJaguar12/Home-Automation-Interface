@@ -129,7 +129,7 @@ for ($i=0;$i<$r3;$i++){
             tooltip: '<?php echo $name1; ?>',
             latitude: <?php echo (double)$lat; ?>,
             longitude: <?php echo (double)$lon; ?>,
-            image: 'pin.png',
+            image: 'img/pin.png',
             width: 32,
             height: 32,
             anchor: 'bottom center',
