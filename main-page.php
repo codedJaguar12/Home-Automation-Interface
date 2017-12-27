@@ -169,7 +169,7 @@ if(i<=7){
       tooltip: a,
       longitude: e.longitude,
       latitude: e.latitude,
-      image: 'pin.png',
+      image: 'img/pin.png',
       width: 32,
       height: 32,
       anchor: 'bottom center',
