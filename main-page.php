@@ -20,7 +20,7 @@ if (($_SESSION['username']) && !empty($_SESSION['username'] )) {
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <link rel='stylesheet' href='photo-sphere-viewer.css'>
+  <link rel='stylesheet' href='css/photo-sphere-viewer.css'>
 
   <style>
     html, body {
@@ -45,19 +45,19 @@ if (($_SESSION['username']) && !empty($_SESSION['username'] )) {
 
 <div id='photosphere'></div>
 
-<script src='three.min.js'></script>
-<script src='D.min.js'></script>
-<script src='uevent.min.js'></script>
-<script src='doT.min.js'></script>
-<script src='CanvasRenderer.js'></script>
-<script src='Projector.js'></script>
-<script src='EffectComposer.js'></script>
-<script src='RenderPass.js'></script>
-<script src='ShaderPass.js'></script>
-<script src='MaskPass.js'></script>
-<script src='CopyShader.js'></script>
-<script src='DeviceOrientationControls.js'></script>
-<script src='photo-sphere-viewer.js'></script>
+<script src='js/three.min.js'></script>
+<script src='js/D.min.js'></script>
+<script src='js/uevent.min.js'></script>
+<script src='js/doT.min.js'></script>
+<script src='js/CanvasRenderer.js'></script>
+<script src='js/Projector.js'></script>
+<script src='js/EffectComposer.js'></script>
+<script src='js/RenderPass.js'></script>
+<script src='js/ShaderPass.js'></script>
+<script src='js/MaskPass.js'></script>
+<script src='js/CopyShader.js'></script>
+<script src='js/DeviceOrientationControls.js'></script>
+<script src='js/photo-sphere-viewer.js'></script>
 
 <script type='text/template' id='pin-content'>
 
