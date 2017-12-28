@@ -72,7 +72,7 @@ var i =<?php echo $r3;?>;
     container: 'photosphere',
     
     move_speed:4,
-    loading_img: 'photosphere-logo.gif',
+    loading_img: 'loading-anim.gif',
     navbar: [
       'autorotate', 'zoom', 'download', 'markers',
       'spacer-1',
