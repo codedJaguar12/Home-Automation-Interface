@@ -1,7 +1,10 @@
 # Home-Automation-Interface
 A interface for Home automation application which is created with photosphere API.
 
+
 ```
+THE MIT LICENSE
+
 Copyright (c) 2018 Rohan Verma
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
